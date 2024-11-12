@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        
+
+        .especial {
+            background-color: rgb(8, 255, 29);
+            color: black;
+        }
+
+        .especial::before {
+            content: ' ⚠ ';
+        }
+
+        .especial::after {
+            content: ' ⚠ ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css" target="_blank" rell="external">Repositório GitHub</a></li>
+        <li><a class="especial" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rell="external">Canal do Youtube</a></li>
+        <li><a class="especial" href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/aulas/algoritmo/modulos/introducao-a-algoritmos/" target="_blank" rell="external">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

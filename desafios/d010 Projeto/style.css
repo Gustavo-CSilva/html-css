@@ -1,0 +1,225 @@
+@font-face {
+    font-family: idroid;
+    src: url('idroid.otf') format('opentype')
+}
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;	
+}
+header {
+    background-image: linear-gradient(to bottom, #51f38fd8, #1A5C38);
+    margin: 0 auto !important; 
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#navegacao {
+    padding: 5px 10px 0px 15px;
+    text-align: left;
+}
+
+
+
+a.menu{
+    color: white;
+    padding: 10px 2px 2px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.menu:hover {
+    text-decoration: underline;
+    color: #b5fcd4;
+    background-color: #237a4a;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+a.menu:active {
+    color: aqua;
+}
+
+body {
+    background-color: #84E1AD;
+    margin-bottom: auto;
+}
+
+a.interno{
+    color: #2ba562;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.interno:hover{
+    text-decoration: underline;
+}
+
+a.interno:active {
+    color: aqua;
+}
+
+
+#principal{
+    color: white;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+}
+    #principal .top {
+    color: white;
+    text-align: center;
+    }
+
+    #principal .sectionTitulo {
+    padding: 20px 0px 20px 10px !important;
+    font-family: 'idroid';
+        
+    color: #22623F;
+    }
+
+section#primeiro {
+    /* position: relative; */
+    background-color: white;
+    margin: 0 auto;
+    border: 0px solid dark;
+    border-radius: 10px;
+    /* padding: 15px 10px 5px 5px; */
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px 1px rgba(26, 26, 27, 0.26);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 50%;
+}
+
+section.titulo {
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        text-indent: 30px;
+        color: #22623F !important;
+}
+
+h1 {
+    color: #22623F;
+    font-family: 'idroid';
+    padding: 10px 2px 10px 2px;
+    text-indent: 5px;
+}
+
+aside > h1 {
+    background: linear-gradient(to right, #aaf5ca, white) ;
+    color: #286845;
+    text-indent: 45px;
+    padding: 10px 0px 0px 0px;
+}
+
+p {
+    text-indent: 20px;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+picture {
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+article {
+    background-color: #1A5C38;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border: 50px solid dark;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+
+    
+}
+
+iframe {
+    height: 90%;
+    width: 90%;
+    border: 0px 2px 2px 0px;
+    margin: 10px 5px 15px;
+    padding: 25px 50px 50px;
+    box-shadow: 5px solid #000000;
+}
+
+h2.bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2ba562;
+    color: white;
+    font-size: 20px;
+    padding: 10px 11px 10px 11px;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.div-bottom {
+    background-color: #65e48b69;
+    margin: 20px 30px 20px 30px;
+    border-radius: 14px 14px 10px 10px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.363);
+}
+
+.listas {
+    text-align: justify;
+    padding: 25px 50px 30px 70px !important;
+    columns: 2;
+    
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+.icone {
+    width: 20px;     /* Define a largura do ícone */
+    height: 20px;    /* Define a altura do ícone */
+    vertical-align: middle; /* Alinha o ícone verticalmente ao meio da linha de texto */
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    padding: 3px 1px 2px 1px;
+}
+
+.lista-direita {
+    text-align: right;
+}
+
+footer {
+    color: white;
+    background-color: #297c4e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #2ba562;
+}

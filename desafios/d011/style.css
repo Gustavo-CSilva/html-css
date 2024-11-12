@@ -1,0 +1,11 @@
+ img {
+    position: absolute;
+    z-index: 1;
+} 
+
+.imagem-centralizada {
+    position: absolute;
+    display: block;
+    left: 40%;
+    top: 30%;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #fffcfcf1;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.principal {
+    height: 65px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00cf3e;
+    font-size: 45px;
+    color: #fffcfce5;
+    margin: 25px 0px 30px 0px;
+   
+}
+
+.top-left {
+    display: inline;
+    margin: 3px 3px 3px 3px;
+}
+
+.top-right {
+    text-align: right;
+    margin: auto
+}
+
+a {
+    
+    text-decoration: none;
+    color: rgba(5, 102, 102, 0.911);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a:hover {
+    text-decoration: underline blueviolet;
+}
+
