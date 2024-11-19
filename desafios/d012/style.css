@@ -7,6 +7,7 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: whitesmoke;
 }
 
@@ -24,6 +25,7 @@ header h1 {
     font-family: "Work Sans", serif;
     font-weight: bold;
     font-size: 3.5em;
+    font-variant: small-caps;
 } 
 
 header p {
@@ -43,6 +45,9 @@ header a:hover {
 main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
 main #textosemimagem {
@@ -57,10 +62,9 @@ main #textocomimagem-1 {
     background-image: url('imagens/background001.jpg');
     background-size: cover;
     background-position: center right;
-    height: 60vh;
     color: white;
     padding-top: 90px;
-    padding-bottom: 0px;
+    padding-bottom: 90px;
     border: 1px solid transparent;
     box-shadow: 1px 1px 7px #000000;
 }
@@ -73,10 +77,9 @@ main #textocomimagem-2 {
     background-image: url('imagens/background002.jpg');
     background-size: cover;
     background-position: center right;
-    height: 60vh;
     color: white;
     padding-top: 90px;
-    padding-bottom: 0px;
+    padding-bottom: 90px;
     border: 1px solid transparent;
     box-shadow: 1px 1px 7px #000000;
 }
@@ -105,9 +108,12 @@ article.segundotextocomimagem {
 
 }
 
+section {
+    padding-left: 30px;
+}
+
 main p{
     padding: 10px 0px 15px 0px;
-    text-indent: 30px;
     text-align: left;
     
 }
