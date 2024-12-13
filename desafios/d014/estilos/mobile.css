@@ -1,11 +1,12 @@
-@media screen and (max-width: 600px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
+header, header > nav {
+    flex-flow: column nowrap;
 }
 
+header > h1 {
+    flex-basis: 50px;
 
+}
+
+header > nav > a {
+    width: 90vw;
+}
